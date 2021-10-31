@@ -11,11 +11,13 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "vue-burger-menu": "^2.0.5"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
     "@nuxtjs/tailwindcss": "^4.2.0",
+    "@nuxtjs/vuetify": "^1.12.1",
     "eslint-config-prettier": "^8.3.0",
     "postcss": "^8.3.5",
     "prettier": "^2.3.2"
