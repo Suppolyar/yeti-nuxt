@@ -27,6 +27,11 @@ export const state = () => ({
         {id: 9, title: 'Десерты'},
         {id: 10, title: 'Микрозелень'},
     ],
+    country: [
+        {name: 'Россия'},
+        {name: 'Америка'},
+        {name: 'Китай'}
+    ]
 })
 
 export const mutations = {

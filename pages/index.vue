@@ -15,8 +15,10 @@
     <!--    <main-page></main-page>-->
     <!--    <about-page></about-page>-->
     <!--    <catalog></catalog>-->
-    <products></products>
+    <!--    <products></products>-->
     <!--    <product-item></product-item>-->
+    <!--    <basket></basket>-->
+    <personal></personal>
     <footer-vue></footer-vue>
   </div>
 </template>
@@ -29,8 +31,10 @@ import About from "./about";
 import Products from "./products";
 import Catalog from "./catalog";
 import ProductItem from "./productItem";
+import Basket from "./basket";
+import Personal from "./personal";
 
 export default {
-  components: {ProductItem, Catalog, Products, About, Main, FooterVue, HeaderVue}
+  components: {Personal, Basket, ProductItem, Catalog, Products, About, Main, FooterVue, HeaderVue}
 }
 </script>
