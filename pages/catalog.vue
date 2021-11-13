@@ -23,19 +23,12 @@ export default {
   name: "catalog",
   data() {
     return {
-      cards: [
-        {id: 1, title: 'World Eggs'},
-        {id: 2, title: 'Мёд l Варенье'},
-        {id: 3, title: 'Мясо'},
-        {id: 4, title: 'Рыба'},
-        {id: 5, title: 'Колбаса'},
-        {id: 6, title: 'Сыр'},
-        {id: 7, title: 'Йогурты'},
-        {id: 8, title: 'Паста и равиоли'},
-        {id: 9, title: 'Десерты'},
-        {id: 10, title: 'Микрозелень'},
 
-      ]
+    }
+  },
+  computed: {
+    cards() {
+      return this.$store.state.cards
     }
   }
 }

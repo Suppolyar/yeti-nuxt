@@ -15,8 +15,8 @@
     <!--    <main-page></main-page>-->
     <!--    <about-page></about-page>-->
     <!--    <catalog></catalog>-->
-    <!--    <products></products>-->
-    <product-item></product-item>
+    <products></products>
+    <!--    <product-item></product-item>-->
     <footer-vue></footer-vue>
   </div>
 </template>

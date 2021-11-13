@@ -34,7 +34,6 @@
         </div>
         <div class="text-center">
           <v-pagination
-              v-model="page"
               :length="15"
               :total-visible="7"
           ></v-pagination>
@@ -49,34 +48,16 @@ export default {
   name: "",
   data() {
     return {
-      cards: [
-        {id: 1, title: 'World Eggs'},
-        {id: 2, title: 'Мёд l Варенье'},
-        {id: 3, title: 'Мясо'},
-        {id: 4, title: 'Рыба'},
-        {id: 5, title: 'Колбаса'},
-        {id: 6, title: 'Сыр'},
-        {id: 7, title: 'Йогурты'},
-        {id: 8, title: 'Паста и равиоли'},
-        {id: 9, title: 'Десерты'},
-        {id: 10, title: 'Микрозелень'},
-      ],
-      items: [
-        {id: 1, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 2, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 3, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 4, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 5, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 6, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 7, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 8, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 9, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 10, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 11, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 12, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 13, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 14, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-      ]
+
+
+    }
+  },
+  computed: {
+    items() {
+      return this.$store.state.items
+    },
+    cards() {
+      return this.$store.state.cards
     }
   }
 }

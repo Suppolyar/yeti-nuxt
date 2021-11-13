@@ -95,15 +95,13 @@
 export default {
   name: "productItem",
   data() {
-    return {
-      items: [
-        {id: 1, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 2, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 3, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'},
-        {id: 4, title: 'Spicy ginger Preserve YETI', description: 'Имбирное варенье описание товара', price: '₽ 650'}
-      ]
-    }
+    return {}
   },
+  computed: {
+    items() {
+      return this.$store.state.items
+    }
+  }
 }
 </script>
 
