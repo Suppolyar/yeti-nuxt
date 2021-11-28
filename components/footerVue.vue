@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto border-black border-t border-b text-black text-sm mb-6">
+  <section class="container mx-auto border-black border-t border-b text-black text-sm mb-6 mt-12">
     <div class="flex flex-col lg:grid grid-cols-2">
       <div class="grid grid-cols-3 gap-3 mb-12 lg:mb-0">
         <NuxtLink class="hover:text-gray-400 duration-300" to="#">Главная</NuxtLink>

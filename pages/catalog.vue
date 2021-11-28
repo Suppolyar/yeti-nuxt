@@ -11,7 +11,7 @@
           <div class="mx-auto mb-3">
             <img class="w-full" src="~/assets/images/background.jpg" alt="product">
           </div>
-          <div class="text-center text-2xl">{{ card.title }}</div>
+          <div class="text-center text-base md:text-2xl">{{ card.title }}</div>
         </NuxtLink>
       </div>
     </div>

@@ -24,53 +24,23 @@
             <p>150 мл</p>
           </div>
           <div>
-            <v-btn
-                class="mx-2"
-                fab
-                dark
-                small
-                color="primary"
-            >
-              <v-icon dark>
-                mdi-minus
-              </v-icon>
-            </v-btn>
-            <v-btn
-                class="mx-2"
-                fab
-                dark
-                small
-                color="primary"
-            >
-              1
-            </v-btn>
-            <v-btn
-                class="mx-2"
-                fab
-                dark
-                small
-                color="primary"
-            >
-              <v-icon dark>
-                mdi-plus
-              </v-icon>
-            </v-btn>
+            <button class="bg-white transition duration-300 hover:bg-gray-100 text-gray-800 py-2 px-4 border border-solid border-black mr-1">
+              -
+            </button>
+            <button class="bg-white transition duration-300 hover:bg-gray-100 text-gray-800 py-2 px-4 border border-solid border-black mr-1">
+              2
+            </button>
+            <button class="bg-white transition duration-300 hover:bg-gray-100 text-gray-800 py-2 px-4 border border-solid border-black mr-1">
+              +
+            </button>
           </div>
           <div>
             <p>450 ₽ </p>
           </div>
           <div>
-            <v-btn
-                class="mx-2"
-                fab
-                dark
-                small
-                color="primary"
-            >
-              <v-icon dark>
-                mdi-close
-              </v-icon>
-            </v-btn>
+            <button class="bg-white transition duration-300 hover:bg-gray-100 text-gray-800 py-2 px-4 border border-solid border-black mr-1">
+              &#10005;
+            </button>
           </div>
         </div>
         <div class="text-right mb-3">
@@ -80,14 +50,9 @@
           <nuxt-link to="products"><span
               class="border-b opacity-70 hover:opacity-100 border-black transition duration-300">Продолжить покупки</span>
           </nuxt-link>
-          <v-btn
-              class="ml-6"
-              large
-              dark
-              color="primary"
-          >
-            Оформить заказ
-          </v-btn>
+          <button class="bg-black transition duration-300 hover:bg-opacity-80 text-white py-2 px-4 border border-solid border-black ml-3">
+            Добавить в корзину
+          </button>
         </div>
       </div>
     </div>

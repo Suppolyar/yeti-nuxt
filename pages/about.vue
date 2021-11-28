@@ -2,12 +2,12 @@
   <section class="container mx-auto">
     <div>
       <div class="text-black text-5xl text-center mb-6">О нас</div>
-      <div class="h-full w-full bg-gray-300 p-14 mb-6">
+      <div class="h-full w-full bg-gray-300 p-3 md:p-14 mb-6">
         <!--        тут немного не понятно что они имеют в виду, можно сделать либо с помощью-->
         <!--        слайдеров с информацией, либо запустить видео-->
         <video></video>
-        <div class="text-white text-8xl font-bold">Видеоряд</div>
-        <div class="text-white text-4xl font-bold">
+        <div class="text-white text-2xl md:text-8xl font-bold">Видеоряд</div>
+        <div class="text-white text-base md:text-4xl font-bold">
           Пару строк информации o Yeti <br>
           Cлоган возможно
         </div>
