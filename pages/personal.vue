@@ -99,12 +99,16 @@
         </div>
       </div>
     </div>
+    <Modal></Modal>
+
   </section>
 </template>
 
 <script>
+import modal from "../components/modal";
 export default {
   name: "personal",
+  components: {modal},
   data() {
     return {
       country: this.country
